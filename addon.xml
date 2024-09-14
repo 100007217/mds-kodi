@@ -1,0 +1,13 @@
+<extension point="xbmc.addon.metadata">
+    <summary lang="en">Addon to access DigiStorage files</summary>
+    <description lang="en">This addon allows access to files stored on DigiStorage using the DigiStorage API.</description>
+    <language>en</language>
+    <platform>all</platform>
+</extension>
+
+<extension point="xbmc.addon.settings">
+    <category label="DigiStorage Settings">
+        <setting id="email" type="text" label="Email" default=""/>
+        <setting id="password" type="password" label="Password" default=""/>
+    </category>
+</extension>
